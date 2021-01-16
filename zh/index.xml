@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhs on Eureka Demo</title>
-    <link>/zh/</link>
-    <description>Recent content in Zhs on Eureka Demo</description>
+    <title>Zhs on R.B.</title>
+    <link>https://xyrui.github.io/zh/</link>
+    <description>Recent content in Zhs on R.B.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright><atom:link href="https://xyrui.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About_me</title>
-      <link>/zh/homepage/about_me/</link>
+      <link>https://xyrui.github.io/zh/homepage/about_me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/homepage/about_me/</guid>
+      <guid>https://xyrui.github.io/zh/homepage/about_me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruixy</title>
-      <link>/zh/homepage/ruixy/</link>
+      <link>https://xyrui.github.io/zh/homepage/ruixy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/homepage/ruixy/</guid>
+      <guid>https://xyrui.github.io/zh/homepage/ruixy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tt</title>
-      <link>/zh/homepage/tt/</link>
+      <link>https://xyrui.github.io/zh/homepage/tt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/homepage/tt/</guid>
+      <guid>https://xyrui.github.io/zh/homepage/tt/</guid>
       <description></description>
     </item>
     
