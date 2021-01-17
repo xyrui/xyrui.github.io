@@ -3,15 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xyrui.github.io/zh/homepage/about_me/</loc>
+    <loc>https://xyrui.github.io/posts/manim/</loc>
+    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/homepage/ruixy/</loc>
+    <loc>https://xyrui.github.io/posts/</loc>
+    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/homepage/tt/</loc>
+    <loc>https://xyrui.github.io/</loc>
+    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xyrui.github.io/about/</loc>
+    <lastmod>2021-01-17T21:15:40+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xyrui.github.io/posts/paper-reading/</loc>
+    <lastmod>2021-01-17T20:56:27+08:00</lastmod>
   </url>
   
   <url>
@@ -23,19 +36,11 @@
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/</loc>
-  </url>
-  
-  <url>
     <loc>https://xyrui.github.io/series/</loc>
   </url>
   
   <url>
     <loc>https://xyrui.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xyrui.github.io/zh/</loc>
   </url>
   
 </urlset>
