@@ -57,34 +57,14 @@
 
 
 
-
-<script type="application/ld+json">
-{
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "itemListElement":[{
-            "@type":"ListItem",
-            "position":  1 ,
-            "name": "Manim",
-            "description": "Eureka is a elegant and powerful theme for Hugo.",
-            "url": "https://xyrui.github.io/notes/manim/"
-        },{
-            "@type":"ListItem",
-            "position":  2 ,
-            "name": "Paper Reading",
-            "description": "markdown for reading papers",
-            "url": "https://xyrui.github.io/notes/paper-reading/"
-        }
-    ]
-}
-</script><meta property="og:title" content="R.B." />
+<meta property="og:title" content="R.B." />
 <meta property="og:type" content="website" />
 
 
 <meta property="og:image" content="https://xyrui.github.io/images/icon.png">
 
 
-<meta property="og:url" content="https://xyrui.github.io/notes/" />
+<meta property="og:url" content="https://xyrui.github.io/en/series/" />
 
 
 
@@ -100,6 +80,10 @@
 
 
 
+<meta property="og:locale:alternate" content="zh" />
+
+
+
 
 <meta property="og:site_name" content="R.B." />
 
@@ -108,14 +92,12 @@
 
 
 
-<meta property="og:updated_time" content="2021-01-17T21:16:28&#43;08:00" />
 
 
+<meta property="article:section" content="series" />
 
-<meta property="article:section" content="notes" />
 
-
-<link rel="alternate" type="application/rss+xml" href="https://xyrui.github.io/notes/index.xml" title="R.B." />
+<link rel="alternate" type="application/rss+xml" href="https://xyrui.github.io/en/series/index.xml" title="R.B." />
 
 <body class="flex flex-col min-h-screen">
     <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
@@ -126,7 +108,7 @@
     }
 </script>
 <nav class="flex items-center justify-between flex-wrap p-4">
-    <a href="/" class="mr-6 text-primary-text text-xl font-bold">R.B.</a>
+    <a href="/en/" class="mr-6 text-primary-text text-xl font-bold">R.B.</a>
     <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
         <i class="fas fa-bars"></i>
     </button>
@@ -134,11 +116,11 @@
     <div id="target"
         class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/#authors"
+            <a href="/en/#authors"
                 class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About me</a>
-            <a href="/notes/"
-                class="block mt-4 md:inline-block md:mt-0  text-eureka  hover:text-eureka mr-4">Notes</a>
-            <a href="/docs/"
+            <a href="/en/notes/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Notes</a>
+            <a href="/en/docs/"
                 class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Docs</a>
         </div>
 
@@ -154,6 +136,19 @@
                     <span class="px-4 py-1 hover:text-eureka">Light</span>
                     <span class="px-4 py-1 hover:text-eureka">Dark</span>
                     <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+            <div class="relative pt-4 pl-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="pl-1">English</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://xyrui.github.io/en/series/">English</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://xyrui.github.io/zh/series/">简体中文</a>
                 </div>
             </div>
         </div>
@@ -182,6 +177,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script></div>
     </header>
@@ -189,83 +185,12 @@
         <div class="pl-scrollbar">
             <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
 <article class="mx-6 my-8">
-    <h1 class="font-bold text-3xl text-primary-text">Notes</h1>
+    <h1 class="font-bold text-3xl text-primary-text">Series</h1>
     
 </article>
-<div class="bg-secondary-bg rounded px-6">
-    <div class="overflow-hidden divide-y">
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="https://xyrui.github.io/notes/manim/" class="font-bold text-xl hover:text-eureka">Manim</a>
-</div>
-<div class="content">
-  
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2021-01-17</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>0 min read</span>
-    </div>
-    
-    
-
+<div class="bg-secondary-bg rounded px-6 py-8">
     
 </div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="https://xyrui.github.io/notes/paper-reading/" class="font-bold text-xl hover:text-eureka">Paper Reading</a>
-</div>
-<div class="content">
-  markdown for reading papers
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2021-01-17</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
-    </div>
-    
-    
-
-    
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-</div>
-
-
-</div>
-
-
-
 
             </div>
         </div>

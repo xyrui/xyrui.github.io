@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on R.B.</title>
-    <link>https://xyrui.github.io/notes/</link>
+    <link>https://xyrui.github.io/en/notes/</link>
     <description>Recent content in Notes on R.B.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 17 Jan 2021 21:16:28 +0800</lastBuildDate><atom:link href="https://xyrui.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 21:16:28 +0800</lastBuildDate><atom:link href="https://xyrui.github.io/en/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manim</title>
-      <link>https://xyrui.github.io/notes/manim/</link>
+      <link>https://xyrui.github.io/en/notes/manim/</link>
       <pubDate>Sun, 17 Jan 2021 21:16:28 +0800</pubDate>
       
-      <guid>https://xyrui.github.io/notes/manim/</guid>
+      <guid>https://xyrui.github.io/en/notes/manim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paper Reading</title>
-      <link>https://xyrui.github.io/notes/paper-reading/</link>
+      <link>https://xyrui.github.io/en/notes/paper-reading/</link>
       <pubDate>Sun, 17 Jan 2021 20:56:27 +0800</pubDate>
       
-      <guid>https://xyrui.github.io/notes/paper-reading/</guid>
+      <guid>https://xyrui.github.io/en/notes/paper-reading/</guid>
       <description>markdown for reading papers</description>
     </item>
     
