@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Manim on R.B.</title>
+    <title>关于Manim：Q&amp;A on R.B.</title>
     <link>/docs/manim/</link>
-    <description>Recent content in Manim on R.B.</description>
+    <description>Recent content in 关于Manim：Q&amp;A on R.B.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 23 Feb 2021 21:38:03 +0800</lastBuildDate><atom:link href="/docs/manim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 08:39:13 +0800</lastBuildDate><atom:link href="/docs/manim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NumberPlane</title>
       <link>/docs/manim/numberplane/</link>
-      <pubDate>Tue, 23 Feb 2021 21:10:46 +0800</pubDate>
+      <pubDate>Wed, 24 Feb 2021 08:38:43 +0800</pubDate>
       
       <guid>/docs/manim/numberplane/</guid>
       <description></description>

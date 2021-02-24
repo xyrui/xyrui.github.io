@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manim on 中文标题</title>
+    <link>/zh/notes/manim/</link>
+    <description>Recent content in Manim on 中文标题</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 24 Feb 2021 08:04:55 +0800</lastBuildDate><atom:link href="/zh/notes/manim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NumberPlane</title>
+      <link>/zh/notes/manim/numberplane/</link>
+      <pubDate>Wed, 24 Feb 2021 08:04:36 +0800</pubDate>
+      
+      <guid>/zh/notes/manim/numberplane/</guid>
+      <description>NumberPlane 的坐标大小</description>
+    </item>
+    
+  </channel>
+</rss>

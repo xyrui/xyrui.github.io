@@ -3,72 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xyrui.github.io/zh/authors/</loc>
+    <loc>/zh/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/authors/"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/authors/"
+                href="/zh/authors/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/categories/</loc>
+    <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/categories/"
+                href="/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/series/</loc>
+    <loc>/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/series/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/series/"
+                href="/zh/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/tags/</loc>
+    <loc>/zh/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/tags/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/tags/"
+                href="/zh/series/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/zh/</loc>
+    <loc>/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/"
+                href="/zh/tags/"
                 />
   </url>
   

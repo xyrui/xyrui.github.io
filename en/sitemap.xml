@@ -3,92 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xyrui.github.io/en/notes/manim/</loc>
-    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
+    <loc>/notes/manim/numberplane/</loc>
+    <lastmod>2021-02-24T08:30:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/notes/</loc>
-    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
+    <loc>/notes/book/foml/</loc>
+    <lastmod>2021-02-24T08:29:46+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/</loc>
-    <lastmod>2021-01-17T21:16:28+08:00</lastmod>
+    <loc>/notes/</loc>
+    <lastmod>2021-02-24T08:31:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/manim/</loc>
+    <lastmod>2021-02-24T08:31:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-02-24T08:31:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/"
+                href="/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/"
+                href="/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/notes/paper-reading/</loc>
-    <lastmod>2021-01-17T20:56:27+08:00</lastmod>
+    <loc>/notes/book/</loc>
+    <lastmod>2021-02-24T08:31:15+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/authors/</loc>
+    <loc>/posts/new/</loc>
+    <lastmod>2021-02-24T08:29:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-02-24T08:29:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/authors/"
+                href="/zh/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/authors/"
+                href="/authors/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xyrui.github.io/en/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/categories/"
+                href="/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/categories/"
+                href="/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/series/</loc>
+    <loc>/authors/ruixy/</loc>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/series/"
+                href="/zh/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/series/"
+                href="/series/"
                 />
   </url>
   
   <url>
-    <loc>https://xyrui.github.io/en/tags/</loc>
+    <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://xyrui.github.io/zh/tags/"
+                href="/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://xyrui.github.io/en/tags/"
+                href="/tags/"
                 />
   </url>
   
