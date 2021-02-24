@@ -14,7 +14,7 @@
       <pubDate>Wed, 24 Feb 2021 08:38:43 +0800</pubDate>
       
       <guid>/docs/manim/numberplane/</guid>
-      <description></description>
+      <description>Manim的NumberPlane函数可以画出二维平面网格坐标系。但是这个坐标系的大小并不能通过向 NumberPlane传递参数来改变，而是由Scen</description>
     </item>
     
   </channel>
