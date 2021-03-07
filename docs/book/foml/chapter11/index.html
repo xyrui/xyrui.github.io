@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width">
 
 
-<title>读书 | R.B.</title>
+<title>Chapter 11 Regression | Foundations of Machine Learning | R.B.</title>
 <link rel="stylesheet" href="/css/eureka.min.css">
 <script defer src="/js/eureka.min.js"></script>
 
@@ -58,41 +58,53 @@
       "@type": "ListItem",
       "position": 2 ,
       "name":"读书",
-      "item":"/docs/book/"}]
+      "item":"/docs/book/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"Foundations of Machine Learning",
+      "item":"/docs/book/foml/"},{
+      "@type": "ListItem",
+      "position": 4 ,
+      "name":"Chapter 11 Regression",
+      "item":"/docs/book/foml/chapter11/"}]
 }
 </script>
 
 
 
-
 <script type="application/ld+json">
 {
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "itemListElement":[{
-            "@type":"ListItem",
-            "position":  1 ,
-            "name": "Foundations of Machine Learning",
-            "description": "目前只阅读了前三章和第十一章。",
-            "url": "/docs/book/foml/"
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/docs/book/foml/chapter11/"
+    },
+    "headline": "Chapter 11 Regression | Foundations of Machine Learning | R.B.","datePublished": "2021-02-25T14:24:39+08:00",
+    "dateModified": "2021-02-25T14:24:39+08:00",
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
         }
-    ]
+        },
+    "description": "Eureka is a elegant and powerful theme for Hugo."
 }
-</script><meta property="og:title" content="读书 | R.B." />
-<meta property="og:type" content="website" />
+</script><meta property="og:title" content="Chapter 11 Regression | Foundations of Machine Learning | R.B." />
+<meta property="og:type" content="article" />
 
 
 <meta property="og:image" content="/images/icon.png">
 
 
-<meta property="og:url" content="/docs/book/" />
+<meta property="og:url" content="/docs/book/foml/chapter11/" />
 
 
 
 
-
-<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
-
+<meta property="og:description" content="" />
 
 
 
@@ -109,14 +121,17 @@
 
 
 
-<meta property="og:updated_time" content="2021-02-25T14:24:39&#43;08:00" />
+<meta property="article:published_time" content="2021-02-25T14:24:39&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2021-02-25T14:24:39&#43;08:00" />
 
 
 
 <meta property="article:section" content="docs" />
 
 
-<link rel="alternate" type="application/rss+xml" href="/docs/book/index.xml" title="R.B." />
+
 
 <body class="flex flex-col min-h-screen">
     <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
@@ -189,58 +204,147 @@
     <main class="flex-grow pt-16">
         <div class="pl-scrollbar">
             <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
-<article class="mx-6 my-8">
-  <h1 class="font-bold text-3xl text-primary-text">读书</h1>
-  
-</article>
-<div class="bg-secondary-bg rounded px-6">
-  <div class="overflow-hidden divide-y">
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="/docs/book/foml/" class="font-bold text-xl hover:text-eureka">Foundations of Machine Learning</a>
-</div>
-<div class="content">
-  目前只阅读了前三章和第十一章。
-</div>
-
-<div class="px-6 pt-4">
-  
-  <div class="">
-      <div class="mb-2">
-          <a href="/docs/book/foml/chapter11/" class="font-semibold hover:text-eureka">Chapter 11 Regression</a>
-      </div>
-      <div class=""></div>
-  </div>
-  
-  
-  <div class="-mx-4 my-4 border-t"></div>
-  <div class="">
-      <div class="mb-2">
-          <a href="/docs/book/foml/chapter2/" class="font-semibold hover:text-eureka">Chapter 2</a>
-      </div>
-      <div class=""></div>
-  </div>
-  
-  <div class="pt-6 hover:text-eureka">
-      <a href="/docs/book/foml/" class="font-semibold">阅读更多</a>
-      <i class="fas fa-caret-right ml-1"></i>
-  </div>
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-</div>
 
 
+<div class="lg:pt-12">
+    <div class="flex flex-col md:flex-row bg-secondary-bg rounded">
+        <div class="md:w-1/4 lg:w-1/5 border-r">
+            <div class="sticky top-16 pt-6">
+                
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-title" class="md:hidden mx-4 px-2 pt-4 pb-2 md:border-b text-tertiary-text md:text-primary-text">
+    <span class="font-semibold">目录</span>
+    <i class="fas fa-caret-right ml-1"></i>
 </div>
+
+<div id="sidebar-toc"
+    class="hidden md:block overflow-y-auto mx-6 md:mx-0 pr-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
+    <div class="flex flex-wrap ml-4 -mr-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
+        <a class=" hover:text-eureka"
+            href="/docs/book/foml/">Foundations of Machine Learning</a>
+        
+        
+        
+
+
+    </div>
+    
+<ul class="pl-6">
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="/docs/book/foml/chapter11/">Chapter 11 Regression</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="/docs/book/foml/chapter2/">Chapter 2</a>
+        </div>
+        
+    </li>
+    
+    
+</ul>
+
+</div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="w-full md:w-3/4 lg:w-4/5 pb-8 pt-2 md:pt-8">
+            <div class="w-full lg:w-3/4 pl-6 ml-0 mr-auto">
+                <h1 class="font-bold text-3xl text-primary-text">Chapter 11 Regression</h1>
+                <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-02-25</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>0分钟阅读时长</span>
+    </div>
+    
+    
+
+    
+</div>
+            </div>
+            <div class="flex">
+                <div class="w-full lg:w-3/4 px-6">
+                    
+                    
+                    <div class="content">
+                        
+                    </div>
+                    
+                    
+
+                    
+
+                    
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">下一页</span>
+        <a href="/docs/book/foml/chapter2/" class="block">Chapter 2</a>
+        
+    </div>
+</div>
+
+                    
+<div id="commento"></div>
+<script defer
+  src="https://cdn.commento.io/js/commento.js">
+</script>
+<noscript>Please enable JavaScript to load the comments.</noscript>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        hljs.initHighlightingOnLoad();
+        changeSidebarHeight();
+        switchDocToc();
+    })
+</script>
+
+
+
+
+
 
 
 

@@ -8,5 +8,14 @@
     <language>zh</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 24 Feb 2021 08:52:13 +0800</lastBuildDate><atom:link href="/docs/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MAML</title>
+      <link>/docs/paper/maml/</link>
+      <pubDate>Sun, 07 Mar 2021 16:08:55 +0800</pubDate>
+      
+      <guid>/docs/paper/maml/</guid>
+      <description>写一下它的双边优化框架： $$ \theta = \arg\min \sum_i\mathcal{L}(T_i;\theta_i^{&#39;}), \tag{1a} $$ $$ \mathrm{where}~~ \theta_i^{&#39;} = \arg\min \mathcal{L}(T_i;\theta). \tag{1b} $$ 文中对于$(1b)$的处理是$\theta_i^{&#39;} = \theta - \alpha\nabla\mathc</description>
+    </item>
+    
   </channel>
 </rss>
