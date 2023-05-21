@@ -4,20 +4,20 @@
         <link>https://xyrui.github.io/categories/</link>
         <description>Categories - 分类 - R.B.</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
-            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Fri, 26 Aug 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xyrui.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Sun, 21 May 2023 18:14:54 &#43;0800</lastBuildDate><atom:link href="https://xyrui.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo Usage</title>
+    <link>https://xyrui.github.io/categories/hugo/</link>
+    <pubDate>Sun, 21 May 2023 18:14:54 &#43;0800</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/categories/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Culture</title>
     <link>https://xyrui.github.io/categories/culture/</link>
     <pubDate>Fri, 26 Aug 2022 00:00:00 &#43;0000</pubDate>
     <author>Ruixy</author>
     <guid>https://xyrui.github.io/categories/culture/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Hugo Usage</title>
-    <link>https://xyrui.github.io/categories/hugo/</link>
-    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
-    <author>Ruixy</author>
-    <guid>https://xyrui.github.io/categories/hugo/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

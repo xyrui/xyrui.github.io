@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Culture - 分类 - R.B.</title>
-        <link>https://xyrui.github.io/categories/culture/</link>
-        <description>Culture - 分类 - R.B.</description>
+        <title>所有Culture - R.B.</title>
+        <link>https://xyrui.github.io/posts/culture/</link>
+        <description>所有Culture | R.B.</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
-            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Fri, 26 Aug 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xyrui.github.io/categories/culture/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Sun, 21 May 2023 19:58:50 &#43;0800</lastBuildDate><atom:link href="https://xyrui.github.io/posts/culture/" rel="self" type="application/rss+xml" /><item>
     <title>中国唐代大理寺</title>
-    <link>https://xyrui.github.io/posts/culture/dalisi/</link>
+    <link>https://xyrui.github.io/posts/culture/dalisi/dalisi/</link>
     <pubDate>Fri, 26 Aug 2022 00:00:00 &#43;0000</pubDate>
     <author>Ruixy</author>
-    <guid>https://xyrui.github.io/posts/culture/dalisi/</guid>
+    <guid>https://xyrui.github.io/posts/culture/dalisi/dalisi/</guid>
     <description><![CDATA[唐代大理寺是一个中央审判机关。其下设官员配置为 大理寺卿：一人，从三品上，总领大理寺事务。 大理寺少卿：一人，从四品上，副职。 以上二人主要负责判]]></description>
 </item>
 </channel>

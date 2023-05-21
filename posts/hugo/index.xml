@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有Hugo - R.B.</title>
+        <title>所有网页使用记录 - R.B.</title>
         <link>https://xyrui.github.io/posts/hugo/</link>
-        <description>所有Hugo | R.B.</description>
+        <description>所有网页使用记录 | R.B.</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
             <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Sun, 21 May 2023 19:58:50 &#43;0800</lastBuildDate><atom:link href="https://xyrui.github.io/posts/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo Loveit主题使用记录</title>
