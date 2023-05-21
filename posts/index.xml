@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - R.B.</title>
+        <link>https://xyrui.github.io/posts/</link>
+        <description>所有文章 | R.B.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Sun, 21 May 2023 18:14:54 &#43;0800</lastBuildDate><atom:link href="https://xyrui.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo Loveit主题使用记录</title>
+    <link>https://xyrui.github.io/posts/hugo/user/</link>
+    <pubDate>Sun, 21 May 2023 18:14:54 &#43;0800</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/hugo/user/</guid>
+    <description><![CDATA[LoveIt主题的使用文档非常非常详细，小白也可以轻松掌握。文档地址 有问题先看exampleSite 基本上设置的问题都可以在这里找到参考模板]]></description>
+</item>
+<item>
+    <title>中国唐代大理寺</title>
+    <link>https://xyrui.github.io/posts/culture/dalisi/</link>
+    <pubDate>Fri, 26 Aug 2022 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/culture/dalisi/</guid>
+    <description><![CDATA[大理寺 唐代大理寺是一个中央审判机关。其下设官员配置为 大理寺卿：一人，从三品上，总领大理寺事务。 大理寺少卿：一人，从四品上，副职。 以上二人主要]]></description>
+</item>
+<item>
+    <title>Markdown 语法</title>
+    <link>https://xyrui.github.io/posts/hugo/markdown-syntax/</link>
+    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/hugo/markdown-syntax/</guid>
+    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
+</item>
+</channel>
+</rss>
