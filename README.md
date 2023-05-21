@@ -1,1 +1,1 @@
-我的(主页)[https://xyrui.github.io/]，不定期更新（可能年更）
+我的[主页](https://xyrui.github.io/)，不定期更新（可能年更）
