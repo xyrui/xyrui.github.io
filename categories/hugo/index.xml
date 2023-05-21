@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo Usage - 分类 - R.B.</title>
+        <link>https://xyrui.github.io/categories/hugo/</link>
+        <description>Hugo Usage - 分类 - R.B.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xyrui.github.io/categories/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown 语法</title>
+    <link>https://xyrui.github.io/posts/hugo/markdown-syntax/</link>
+    <pubDate>Mon, 11 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/hugo/markdown-syntax/</guid>
+    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
+</item>
+</channel>
+</rss>
