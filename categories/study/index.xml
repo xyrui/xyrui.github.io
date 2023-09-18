@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Study Notes - 分类 - R.B.</title>
+        <link>https://xyrui.github.io/categories/study/</link>
+        <description>Study Notes - 分类 - R.B.</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Mon, 18 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xyrui.github.io/categories/study/" rel="self" type="application/rss+xml" /><item>
+    <title>DDPM中的重参数化</title>
+    <link>https://xyrui.github.io/posts/study/diffusion1/</link>
+    <pubDate>Mon, 18 Sep 2023 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/study/diffusion1/</guid>
+    <description><![CDATA[Denoising Diffusion Probabilistic Models （DDPM）这篇文章的3.2小节有一段看起来很绕的变量替换，作者在$x_t$，$x_0$和$\epsilon$之间反复地来回变换，最]]></description>
+</item>
+</channel>
+</rss>

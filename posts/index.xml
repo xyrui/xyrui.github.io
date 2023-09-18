@@ -4,7 +4,15 @@
         <link>https://xyrui.github.io/posts/</link>
         <description>所有文章 | R.B.</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
-            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Sun, 21 May 2023 18:14:54 &#43;0800</lastBuildDate><atom:link href="https://xyrui.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Mon, 18 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xyrui.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>DDPM中的重参数化</title>
+    <link>https://xyrui.github.io/posts/study/diffusion1/</link>
+    <pubDate>Mon, 18 Sep 2023 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/study/diffusion1/</guid>
+    <description><![CDATA[Denoising Diffusion Probabilistic Models （DDPM）这篇文章的3.2小节有一段看起来很绕的变量替换，作者在$x_t$，$x_0$和$\epsilon$之间反复地来回变换，最]]></description>
+</item>
+<item>
     <title>Hugo Loveit主题使用记录</title>
     <link>https://xyrui.github.io/posts/hugo/user/</link>
     <pubDate>Sun, 21 May 2023 18:14:54 &#43;0800</pubDate>
