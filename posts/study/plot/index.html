@@ -4,37 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>DDPM中的重参数化 - R.B.</title><meta name="Description" content="关于扩散模型的零散笔记."><meta property="og:title" content="DDPM中的重参数化" />
-<meta property="og:description" content="关于扩散模型的零散笔记." />
+        <title>画出好看的图 - R.B.</title><meta name="Description" content="长期记录把图画好看的小工具."><meta property="og:title" content="画出好看的图" />
+<meta property="og:description" content="长期记录把图画好看的小工具." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xyrui.github.io/posts/study/diffusion1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-09-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-09-18T00:00:00+00:00" /><meta property="og:site_name" content="R.B." />
+<meta property="og:url" content="https://xyrui.github.io/posts/study/plot/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-16T00:00:00+00:00" /><meta property="og:site_name" content="R.B." />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="DDPM中的重参数化"/>
-<meta name="twitter:description" content="关于扩散模型的零散笔记."/>
+<meta name="twitter:title" content="画出好看的图"/>
+<meta name="twitter:description" content="长期记录把图画好看的小工具."/>
 <meta name="application-name" content="R.B.">
 <meta name="apple-mobile-web-app-title" content="R.B."><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xyrui.github.io/posts/study/diffusion1/" /><link rel="prev" href="https://xyrui.github.io/posts/hugo/user/" /><link rel="next" href="https://xyrui.github.io/posts/study/plot/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xyrui.github.io/posts/study/plot/" /><link rel="prev" href="https://xyrui.github.io/posts/study/diffusion1/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "DDPM中的重参数化",
+        "headline": "画出好看的图",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/xyrui.github.io\/posts\/study\/diffusion1\/"
-        },"genre": "posts","wordcount":  1367 ,
-        "url": "https:\/\/xyrui.github.io\/posts\/study\/diffusion1\/","datePublished": "2023-09-18T00:00:00+00:00","dateModified": "2023-09-18T00:00:00+00:00","publisher": {
+            "@id": "https:\/\/xyrui.github.io\/posts\/study\/plot\/"
+        },"genre": "posts","wordcount":  167 ,
+        "url": "https:\/\/xyrui.github.io\/posts\/study\/plot\/","datePublished": "2024-07-16T00:00:00+00:00","dateModified": "2024-07-16T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
                 "name": "Ruixy"
-            },"description": "关于扩散模型的零散笔记."
+            },"description": "长期记录把图画好看的小工具."
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -100,80 +100,56 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">DDPM中的重参数化</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">画出好看的图</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Ruixy</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study Notes</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-18">2023-09-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1367 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-07-16">2024-07-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 167 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>Denoising Diffusion Probabilistic Models <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf" target="_blank" rel="noopener noreffer ">（DDPM）</a>这篇文章的3.2小节有一段看起来很绕的变量替换，作者在$x_t$，$x_0$和$\epsilon$之间反复地来回变换，最后推导出一个看起来很简洁的损失项，也就是原文式(12)。我一开始看到这里，感觉是有一点点乱的，所以就按照重参数化的计算过程，把原文式(8)-(12)重新梳理一下。</p>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#配色">配色</a></li>
+    <li><a href="#示意图画图平台">示意图画图平台</a></li>
+    <li><a href="#数据画图平台">数据画图平台</a>
+      <ul>
+        <li><a href="#matlab">Matlab</a></li>
+        <li><a href="#python">Python</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="配色">配色</h2>
+<p>众所周知，图片的配色就像化妆一样，如果不注意手法，那么很容易画出“精致丑”的图片。</p>
+<p><a href="https://www.zhongguose.com/" target="_blank" rel="noopener noreffer ">中国色</a>这个网站就收录了多达526中颜色。</p>
+<figure><img src="/posts/zhongguose.png"/><figcaption>
+            <h4>网页示例</h4>
+        </figcaption>
+</figure>
+
+<p>页面左侧为备选颜色列表，背景色就是所选颜色，右侧包含颜色的信息，如RGB数值等。非常方便。</p>
+<h2 id="示意图画图平台">示意图画图平台</h2>
 <ol>
-<li>
-<p>让我们从原文的损失项开始，也就是原文式(8)-(9)：
-\begin{align}
-L_{t-1} &amp; = \mathbb{E}_{q(x_t,x_0)}\left[ \dfrac{1}{2\sigma_t^2} \Vert \tilde{\mu}_t(x_t,x_0) - \mu_\theta(?) \Vert^2 \right] + C \\
-\Rightarrow  L_{t-1} - C &amp; = \mathbb{E}_{q(x_t,x_0)}\left[ \dfrac{1}{2\sigma_t^2} \left\Vert \dfrac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1-\bar{\alpha}_t}x_0 + \dfrac{\sqrt{\alpha_t}(1-\bar{\alpha}_{t-1})}{1-\bar{\alpha}_t}x_t- \mu_\theta(?) \right\Vert^2 \right]
-\end{align}
-这里和原文不一样的是，原文是直接给出$\mu_\theta(?)=\mu_\theta(x_t,t)$，但是我们先不假设$\mu_\theta$的输入是什么，暂时用个小问号代替，因为计算的前半段和$\mu_\theta$的形式并没有直接关系。</p>
-</li>
-<li>
-<p>重参数化可以让我们改变积分的“主角”，原文式(9)-(10)就是使用了重参数化，他把关于$x_t$的期望变成关于$\epsilon$的期望。要做这种变换，我们首先写出$x_t$和$\epsilon$的关系：
-\begin{align}
-x_t = \sqrt{1-\bar{\alpha}_t}\epsilon_t + \sqrt{\bar{\alpha}_t}x_0
-\end{align}
-这是一种正相关的线性关系，那么就有
-\begin{align}
-q(x_t)dx_t = q(\epsilon)d\epsilon
-\end{align}
-于是我们根据这个等式，可以直接把(2)中的$x_t$用(3)替换掉，得到：
-\begin{align}
-L_{t-1} - C = \mathbb{E}_{q(\epsilon,x_0)}\left[\dfrac{1}{2\sigma_t^2}\left\Vert \sqrt{\bar{\alpha}_{t-1}}x_0 + \dfrac{\sqrt{\alpha_t}(1-\bar{\alpha}_{t-1})}{\sqrt{1-\bar{\alpha}_t}}\epsilon- \mu_\theta(?) \right\Vert^2 \right]
-\end{align}
-然后，我们在这个式子的范数的里面加一项$\dfrac{\sqrt{1-\bar{\alpha}_t}}{\sqrt{\alpha_t}}\epsilon_t$再减一项$\dfrac{\sqrt{1-\bar{\alpha}_t}}{\sqrt{\alpha_t}}\epsilon_t$，得到:</p>
-</li>
+<li>PPT的性价比就很高</li>
+<li>Adobe画图系列工具现在还没学会。</li>
 </ol>
-<p>$L_{t-1} - C $
-\begin{align}
-&amp; = \mathbb{E}_{q(\epsilon,x_0)}\left[\dfrac{1}{2\sigma_t^2} \left\Vert \dfrac{1}{\sqrt{\alpha_t}}[\sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon] - \dfrac{\sqrt{1-\bar{\alpha}_t}}{\sqrt{\alpha_t}}\epsilon + \dfrac{\sqrt{\alpha_t}(1-\bar{\alpha}_{t-1})}{\sqrt{1-\bar{\alpha}_t}}\epsilon - \mu_\theta(?)\right\Vert^2 \right] \\
-&amp; = \mathbb{E}_{q(\epsilon,x_0)}\left[\dfrac{1}{2\sigma_t^2} \left\Vert \dfrac{1}{\sqrt{\alpha_t}} \left[ \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon - \dfrac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon \right] - \mu_\theta(?) \right\Vert^2 \right]
-\end{align}</p>
-<ol start="3">
-<li>
-<p>接下来，我们开始分析$\mu_\theta$的形式。根据原文式(11)：
-\begin{align}
-\mu_\theta(?)=\mu_\theta(x_t,t)=\dfrac{1}{\sqrt{\alpha_t}}\left[ x_t - \dfrac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon_\theta(x_t,t)\right]
-\end{align}
-注意到(7)中出现了$\sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon$，它和$x_t$（扩散中的隐变量）是同分布的。于是，原文式(11)，也就是这里的(8)，中会出现$x_t$，但是这个$x_t$应该和(1)中取期望的$x_t$（扩散中的隐变量）的含义是不同的。这里的$x_t$的本义是指和$\sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon$同分布的随机变量，只是它恰好和$x_t$（扩散中的隐变量）的分布相同。<br>
-(7)中还有一项$\dfrac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon$，而$\mu_\theta(x_t,t)$中的$\dfrac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon_\theta(x_t,t)$就是参考这一项设置的。我们可以看出来，(7)中的$\epsilon$被拆成了两项，实际上$\epsilon_\theta(x_t,t)$表示的是$\epsilon$的一部分。</p>
-</li>
-<li>
-<p>最后，我们把
-\begin{align}
-\mu_\theta(x_t,t)=\dfrac{1}{\sqrt{\alpha_t}}\left[ \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon - \dfrac{1-\alpha_t}{\sqrt{1-\bar{\alpha}_t}}\epsilon_\theta(x_t,t) \right]
-\end{align}
-带入到(7)中，就可以得到原文式(12)的最终损失项形式了：
-\begin{align}
-\mathbb{E}_{q(\epsilon,x_0)} \left[ \dfrac{(1-\alpha_t)^2}{2\sigma_t^2\alpha_t(1-\bar{\alpha}_t)} \left\Vert \epsilon - \epsilon_\theta(x_t,t) \right\Vert^2 \right]
-\end{align}</p>
-</li>
-<li>
-<p>我们从(7)中也可以看出来，只要能计算，方便采样，$\mu_\theta$的输入也完全可以换成其他的，它的形式也可以换成其他的。</p>
-</li>
-</ol>
+<h2 id="数据画图平台">数据画图平台</h2>
+<h3 id="matlab">Matlab</h3>
+<p>（未完待续）</p>
+<h3 id="python">Python</h3>
+<p>（未完待续）</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2023-09-18</span>
+                <span>更新于 2024-07-16</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://xyrui.github.io/posts/study/diffusion1/" data-title="DDPM中的重参数化"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://xyrui.github.io/posts/study/diffusion1/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://xyrui.github.io/posts/study/diffusion1/" data-title="DDPM中的重参数化"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://xyrui.github.io/posts/study/diffusion1/" data-title="DDPM中的重参数化"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://xyrui.github.io/posts/study/diffusion1/" data-title="DDPM中的重参数化"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://xyrui.github.io/posts/study/plot/" data-title="画出好看的图"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://xyrui.github.io/posts/study/plot/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://xyrui.github.io/posts/study/plot/" data-title="画出好看的图"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://xyrui.github.io/posts/study/plot/" data-title="画出好看的图"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://xyrui.github.io/posts/study/plot/" data-title="画出好看的图"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -185,8 +161,7 @@ L_{t-1} - C = \mathbb{E}_{q(\epsilon,x_0)}\left[\dfrac{1}{2\sigma_t^2}\left\Vert
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/hugo/user/" class="prev" rel="prev" title="Hugo Loveit主题使用记录"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Hugo Loveit主题使用记录</a>
-            <a href="/posts/study/plot/" class="next" rel="next" title="画出好看的图">画出好看的图<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/study/diffusion1/" class="prev" rel="prev" title="DDPM中的重参数化"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>DDPM中的重参数化</a></div>
 </div>
 <div id="comments"><div id="utterances" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
