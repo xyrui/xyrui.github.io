@@ -4,9 +4,17 @@
         <link>https://xyrui.github.io/</link>
         <description>Ruixy Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:xyrui.aca@gmail.com (Ruixy)</managingEditor>
-            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Tue, 16 Jul 2024 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>mailto:xyrui.aca@gmail.com (Ruixy)</webMaster><lastBuildDate>Tue, 06 Aug 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://xyrui.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Latex偏门小技巧</title>
+    <link>https://xyrui.github.io/posts/study/latex/</link>
+    <pubDate>Tue, 06 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>Ruixy</author>
+    <guid>https://xyrui.github.io/posts/study/latex/</guid>
+    <description><![CDATA[循环 没错，Latex中可以定义循环。使用循环前，先调用宏包 \usepackage{tikz} For循环 \def\xunhuan{{a,b},{c,d}} % 定义宏 \foreach[count=\i] \x in \xunhuan %count用于计数 { \foreach[count=\j] \y in \x { position: (\i,\j), context: \y \\ } } 这段代]]></description>
+</item>
+<item>
     <title>画出好看的图</title>
     <link>https://xyrui.github.io/posts/study/plot/</link>
     <pubDate>Tue, 16 Jul 2024 00:00:00 &#43;0000</pubDate>
@@ -16,10 +24,10 @@
 </item>
 <item>
     <title>DDPM中的重参数化</title>
-    <link>https://xyrui.github.io/posts/study/diffusion1/</link>
+    <link>https://xyrui.github.io/posts/academic/diffusion1/</link>
     <pubDate>Mon, 18 Sep 2023 00:00:00 &#43;0000</pubDate>
     <author>Ruixy</author>
-    <guid>https://xyrui.github.io/posts/study/diffusion1/</guid>
+    <guid>https://xyrui.github.io/posts/academic/diffusion1/</guid>
     <description><![CDATA[Denoising Diffusion Probabilistic Models （DDPM）这篇文章的3.2小节有一段看起来很绕的变量替换，作者在$x_t$，$x_0$和$\epsilon$之间反复地来回变换，最]]></description>
 </item>
 <item>
